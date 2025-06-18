@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Cart - Coffee Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="Checkout.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="img/logo.png" alt="Coffee Shop Logo" />
+    </a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <ul class="navbar">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About Us</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="index.html#customer">Customer</a></li>
+    </ul>
+    <div class="header-icon">
+      <a href="cart.html"><i class="bx bx-cart-alt"></i></a>
+      <i class="bx bx-search-alt" id="search-icon"></i>
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Search..." />
+    </div>
+  </header>
+
+  <!--order summery-->
+  <section class="checkout-section">
+     <div class="checkout-container">
+      <h2>Order Summary</h2>
+      <div id="checkout-items"></div>
+      <p id="shipping-fee">Shipping Fee: Rs. 200/=</p>
+      <h3 id="checkout-total">Total: Rs. 0/=</h3>
+
+      <form id="checkout-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="address">Delivery Address:</label>
+        <textarea id="address" rows="3" required></textarea>
+
+        <label for="note">Note (optional):</label>
+        <textarea id="note" rows="2"></textarea>
+
+        <div class="checkout-buttons">
+          <button class="place" type="submit">Place Order</button>
+          <button class="back" type="button" onclick="window.location.href='cart.html'">Back to Cart</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <section class="footer">
+    <div class="footer-box">
+      <h3>Coffee Shop</h3>
+      <p>We are a local coffee shop dedicated to serving the finest brews and creating a welcoming space for our community.</p>
+      <div class="social">
+        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-tiktok'></i></a>
+      </div>
+    </div>
+    <div class="footer-box">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Help & Support</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h3>View Guides</h3>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Blog posts</a></li>
+        <li><a href="#">Our Branches</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <div class="contact">
+        <span><i class='bx bx-map'></i>30, Mahavihara Rd, Moratuwa</span>
+        <span><i class='bx bx-phone-call'></i>+94 75 345-2334</span>
+        <span><i class='bx bx-envelope'></i>coffee@shop.com</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>

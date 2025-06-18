@@ -1,0 +1,77 @@
+.checkout-section {
+  padding: 60px;
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+   background-image: url('img/nhh.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ border:2px solid #0f0e0e;
+ 
+ 
+}
+
+.checkout-container h2 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  
+}
+
+#checkout-items p {
+  margin: 5px 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.checkout-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  
+}
+
+.checkout-buttons button {
+  padding: 10px 20px;
+  cursor: pointer;
+  color:rgb(4, 4, 4);
+  font-size: 16px;
+  font-weight: 20px;
+  border:2px solid #0a0a0a;
+  border-radius: 25px;
+}
+.checkout-buttons button.place {
+  background-color: #519a54; /* Green */
+  color: white;
+}
+.checkout-buttons button.place:hover{
+    background-color: #66cc6c; /* Darker green */
+}
+.checkout-buttons button.back {
+  background-color: #614601; /* Red */
+  color: white;
+}
+.checkout-buttons button.back:hover {
+  background-color: #ecb651; /* Darker red */
+  color:#fff
+}
