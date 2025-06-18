@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!---Navbar--->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="">
+        </a>
+        <!---Menu Icon--->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--links-->
+        <ul class="navbar">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#product">Products</a></li>
+            <li><a href="index.html#customer">Customer</a></li>
+        </ul>
+        <!--icons---->
+        <div class="header-icon">
+            <a href="cart.html"><i class='bx bx-cart-alt'></i></a>
+            <i class='bx bx-search-alt' id="search-icon"></i>
+        </div>
+
+        <!--Search Box-->
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
+
+    <!---Products Section--->
+    <section class="products-section">
+        <div class="heading">
+            <h2>Our Premium Products</h2>
+            <p>Discover our carefully selected range of coffee products</p>
+        </div>
+
+        <div class="products-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p1.png" alt="Arabica beans">
+                    <div class="product-overlay">
+                        <button class="add-to-cart" data-name="Arabica Beans" data-price="7500" data-image="img/p1.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Arabica Beans</h3>
+                    <p>Premium quality Arabica coffee beans</p>
+                    <div class="product-price">Rs. 7,500/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p2.png" alt="Botero">
+                    <div class="product-overlay">
+                        <button class="add-to-cart" data-name="Bestro" data-price="6500" data-image="img/p2.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Botero</h3>
+                    <p>Rich and smooth Colombian blend</p>
+                    <div class="product-price">Rs. 6,500/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p3.png" alt="Patch Roast">
+                    <div class="product-overlay">
+                        <button class="add-to-cart" data-name="Patch Roast" data-price="3500" data-image="img/p3.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Patch Roast</h3>
+                    <p>Medium roast with chocolate notes</p>
+                    <div class="product-price">Rs. 3,500/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p4.png" alt="Dark Roast">
+                    <div class="product-overlay">
+                        <button class="add-to-cart"data-name="Dark Roast" data-price="5500" data-image="img/p4.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Dark Roast</h3>
+                    <p>Bold and intense flavor profile</p>
+                    <div class="product-price">Rs. 5,500/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p5.png" alt="Sacred Grounds">
+                    <div class="product-overlay">
+                        <button class="add-to-cart"data-name="Sacred Grounds" data-price="5000" data-image="img/p5.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Sacred Grounds</h3>
+                    <p>Ethically sourced premium blend</p>
+                    <div class="product-price">Rs. 5,000/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p6.png" alt="Presto">
+                    <div class="product-overlay">
+                        <button class="add-to-cart"data-name="Presto" data-price="4000" data-image="img/p6.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Presto</h3>
+                    <p>Quick and convenient coffee solution</p>
+                    <div class="product-price">Rs. 4,000/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p1.png" alt="Espresso Blend">
+                    <div class="product-overlay">
+                        <button class="add-to-cart"data-name="Espresso Blend" data-price="6000" data-image="img/p1.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Espresso Blend</h3>
+                    <p>Perfect for espresso lovers</p>
+                    <div class="product-price">Rs. 6,000/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p2.png" alt="Morning Blend">
+                    <div class="product-overlay">
+                        <button class="add-to-cart"data-name="Morning Blend" data-price="4500" data-image="img/p2.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Morning Blend</h3>
+                    <p>Energizing start to your day</p>
+                    <div class="product-price">Rs. 4,500/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p3.png" alt="Decaf Delight">
+                    <div class="product-overlay">
+                        <button class="add-to-cart"data-name="Decaf Delight" data-price="5200" data-image="img/p3.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Decaf Delight</h3>
+                    <p>Full flavor without the caffeine</p>
+                    <div class="product-price">Rs. 5,200/=</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="img/p4.png" alt="Seasonal Special">
+                    <div class="product-overlay">
+                        <button class="add-to-cart"data-name="Seasonal special" data-price="6800" data-image="img/p4.png">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Seasonal Special</h3>
+                    <p>Limited edition holiday blend</p>
+                    <div class="product-price">Rs. 6,800/=</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Footer Section--->
+    <section class="footer">
+        <div class="footer-box">
+            <h3>Coffee Shop</h3>
+            <p>We are a local coffee shop dedicated to serving the finest brews and creating a welcoming space for our community.</p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog posts</a></li>
+                <li><a href="#">Our Branches</a></li>
+            </ul>
+        </div>
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <div class="contact">
+                <span><i class='bx bx-map'></i>30,Mahavihara Rd, Moratuwa</span>
+                <span><i class='bx bx-phone-call'></i>+94 75 345-2334</span>
+                <span><i class='bx bx-envelope'></i>coffee@shop.com</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
